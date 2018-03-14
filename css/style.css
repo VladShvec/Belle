@@ -1,0 +1,112 @@
+html,body
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+.wrapper{
+    position: relative;
+    max-width: 100%;
+    min-width: 980px;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+
+    min-height: 100%;
+
+}
+header
+{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 100px;
+}
+.in
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+.logo
+{
+    margin-top: 37px;
+    float: left;
+}
+nav
+{
+    float: right;
+}
+nav ul
+{
+    margin-top: 47px;
+}
+nav a
+{
+    padding-top: 47px;
+    padding-bottom: 42px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+nav a
+{
+    color: #6c6c6c;
+}
+nav a:hover
+{
+    border-bottom: 4px solid #ddd;
+}
+.bilb
+{
+    width: 100%;
+    background-image: url(../images/billboard.jpg);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+.bilb h1 
+{
+    font-size: 40px; 
+    color: #7f7e7f;
+    margin-left:129px;
+    padding-top:  150px;
+}
+h1 span
+{
+    font-weight: 700;
+    color: #646262;
+}
+.get_it_now
+{
+    width: 251px;
+    background-color: #ec5483;
+    height: 49px;
+    margin-top: 67px;
+    margin-left: 209px;
+    border-radius: 40px 40px 40px 40px;
+    box-sizing: border-box;
+}
+.get_it_now p
+{
+    font-size:18px;
+    font-weight:bold; 
+    color: #fff;
+    margin-left: 73px;
+    padding-top: 15px;
+}
+.get_it_now a
+{
+    color: #fff;
+}
+.get_it_now p img
+{
+    padding-bottom: 4px;
+}
+.get_it_now:hover
+{
+    background-color: transparent;
+    border: 2px solid #48566e;
+}

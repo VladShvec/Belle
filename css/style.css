@@ -66,6 +66,7 @@ nav a:hover
     height: 450px;
     background-position: center;
     background-size: cover;
+    
 }
 .bilb h1 
 {
@@ -114,7 +115,6 @@ h1 span
 {
     width: 100%;
     height: 433px;
-    margin-bottom: 100px;
 }
 .service_blocks
 {
@@ -154,4 +154,95 @@ h1 span
     margin-top: 45px;
     margin-bottom: 4px;
     margin-left: 0
+}
+.Testimonials
+{
+    margin-bottom: 100px;
+    width: 100%;
+}
+.main_testi
+{
+    width: 280px;
+    height: 390px;
+    display: inline-block;
+    margin-left: 28px;
+}
+.main_testi img
+{
+    margin-bottom: 8px;
+}
+.main_testi p
+{
+    width: 240px;
+    height: 217px;
+    border: 1px solid #e6e6e6;
+    border-bottom: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    line-height: 2;
+    
+}
+.second_testi img
+
+{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.second_testi span
+{
+    display: block;
+    font-weight: bold;
+    margin-left: 91px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    
+}
+.second_testi b
+{
+    margin-left: 69px;
+
+}
+.clients
+{
+    width: 100%;
+    margin-bottom: 100px;
+    
+}
+.brands
+{
+    width: 100%;
+    margin-left: 21px;
+}
+.brands img
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 14px;
+    margin-left: 7px;
+}
+.brands img:hover
+{
+    background-color: #7c8ba2;
+}
+.Blog
+{
+    margin-left: 54px;
+    margin-bottom: 100px;
+}
+.main_blog
+{
+    height: 357px;
+    width: 280px;
+    display: inline-block;
+    margin-right: 42px;
+}
+.main_blog h1
+{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }

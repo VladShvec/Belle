@@ -66,6 +66,7 @@ nav a:hover
     height: 450px;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 .bilb h1 
@@ -314,4 +315,67 @@ h1 span
 {
     font-size: 14px;
     line-height: 2;
+}
+.take_action
+{
+    margin-bottom: 100px;
+}
+.action_block p
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #686868;
+
+}
+.action_block p span
+{
+    font-weight: bold;
+}
+.button_of_take_action
+{
+  width: 227px;
+    height: 70px;
+background-color: #ec5483;
+    margin-top: 60px;
+box-sizing: border-box;  
+    padding-top: 23px;
+
+}
+.action_block div
+{
+    margin-left: 227px;
+}
+
+.button_of_take_action a
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.button_of_take_action:hover
+{
+    border: 1px solid #38404b;
+    background-color: #4f5e75;
+}
+.footer
+{
+    width: 100%;
+    background-color: #38404b;
+    height: 336px;
+}
+.footer:hover
+{
+    background-image: url(../images/billboard.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.footer h1 a
+{
+    font-size: 60px;
+    color: aliceblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 550px;
 }

@@ -126,7 +126,7 @@ h1 span
 .Service
 {
     width: 100%;
-    /*background-color: #fff;*/
+    background-color: #fff;
     height: 333px;
     margin-top: 100px;
 }
@@ -180,7 +180,7 @@ h1 span
 {
     margin-bottom: 100px;
     width: 100%;
-    /*background-color: #fcfcfc;*/
+    background-color: #fcfcfc;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -244,7 +244,7 @@ width: 258px;
 {
     width: 100%;
     margin-bottom: 100px;
-        /*background-color: #fff;*/
+    background-color: #fff;
 }
 .brands
 {
@@ -265,7 +265,7 @@ width: 258px;
 .Blog
 {
     margin-bottom: 100px;
-    /*background-color: #fcfcfc;*/
+    background-color: #fcfcfc;
     width: 100%;
     padding-bottom: 100px;
  
@@ -345,7 +345,7 @@ margin-left: 28px;
 {
 
     margin-bottom: 100px;
-    /*background-color: #fcfcfc;*/
+    background-color: #fcfcfc;
     width: 100%;
     
     padding-top: 100px;

@@ -11,16 +11,15 @@ html,body
     min-width: 980px;
     font-family: "Raleway", sans-serif;
     box-sizing: border-box;
-/*      background-image: url(../images/bb.jpg);
+    background-image: url(../images/bb.jpg);
     background-repeat: no-repeat;
-    background-position: center;*/
+    background-position:top;
     min-height: 100%;
 
 }
 header
 {
     width: 100%;
-    margin-bottom: 10px;
     height: 100px;
    
 }
@@ -35,11 +34,13 @@ header
     margin-top: 37px;
     float: left;
     vertical-align: baseline;
+    margin-left: 29px;
 }
 nav
 {
     float: right;
     vertical-align: middle;
+    margin-top: -7px;
 }
 nav ul
 {
@@ -47,18 +48,20 @@ nav ul
 }
 nav a
 {
-    padding-top: 47px;
-    padding-bottom: 42px;
-    padding-left: 12px;
+    padding-top: 38px;
+    padding-bottom: 29px;
+    padding-left: 10px;
     padding-right: 12px;
     font-family: "Raleway", sans-serif;
     font-size: 14px;
     text-align: center;
+    margin-right: 8px;
+    font-weight: 600;
 }
 
 nav a
 {
-    color: #6c6c6c;
+    color: #c3c3c3;
 }
 nav a:hover
 {
@@ -77,25 +80,25 @@ nav a:hover
 }
 .bilb h1 
 {
-    font-size: 40px; 
+    font-size: 40px;
     color: #7f7e7f;
-    margin-left:139px;
-    padding-top:  150px;
+    margin-left: 118px;
+    padding-top: 134px;
     font-weight: 200;
 }
 h1 span
 {
     font-weight: 700;
     color: #646262;
-    margin-right: 13px;
+    margin-right: 18px;
 }
 .get_it_now
 {
     width: 251px;
     background-color: #ec5483;
     height: 49px;
-    margin-top: 67px;
-    margin-left: 209px;
+    margin-top: 63px;
+    margin-left: 202px;
     border-radius: 40px 40px 40px 40px;
     box-sizing: border-box;
 }
@@ -123,7 +126,7 @@ h1 span
 .Service
 {
     width: 100%;
-    background-color: #fff;
+    /*background-color: #fff;*/
     height: 333px;
     margin-top: 100px;
 }
@@ -133,12 +136,12 @@ h1 span
     width:187px ;
     display: inline-block;
     margin-left: 20px;
-    margin-top: 5px;
+   
 }
 .service_blocks img
 {
     margin-left: 72px;
-    margin-bottom: 32px;
+    margin-bottom: 39px;
     
 }
 .service_blocks p
@@ -146,7 +149,7 @@ h1 span
     font-size: 13px;
     color: #b7b7b7;
     text-align: center;
-
+    margin-bottom: 3px;
     line-height: 2;
     margin-top: -6px;
         font-family: 'Raleway';
@@ -177,7 +180,7 @@ h1 span
 {
     margin-bottom: 100px;
     width: 100%;
-    background-color: #fcfcfc;
+    /*background-color: #fcfcfc;*/
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -241,7 +244,7 @@ width: 258px;
 {
     width: 100%;
     margin-bottom: 100px;
-        background-color: #fff;
+        /*background-color: #fff;*/
 }
 .brands
 {
@@ -250,7 +253,7 @@ width: 258px;
 }
 .brands img
 {
-    margin-top: 100px;
+    margin-top: -29px;
     margin-bottom: 100px;
     margin-right: 14px;
     margin-left: 7px;
@@ -262,9 +265,8 @@ width: 258px;
 .Blog
 {
     margin-bottom: 100px;
-    background-color: #fcfcfc;
+    /*background-color: #fcfcfc;*/
     width: 100%;
-    padding-top: 100px;
     padding-bottom: 100px;
  
 
@@ -274,17 +276,18 @@ width: 258px;
     height: 357px;
     width: 280px;
     display: inline-block;
-    margin-right: 2px;
-    margin-left: 40px;
+    margin-right: 14px;
+    margin-left: 23px;
 }
 .main_blog p
 {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 34px;
     margin-bottom: 10px;
     font-family: 'Raleway';
+    line-height: 1.5;
 }
 .main_blog time
 {
@@ -294,30 +297,33 @@ width: 258px;
 {
   
 
-    margin-left: 58px;
+margin-left: 28px;
     margin-bottom: -3px;
-    margin-top: 37px;
+    margin-top: -16px;
 }
 .features_main_block
 {
     height: 191px;
     width: 280px;
     display: inline-block;
-    margin-right: 31px;
-    margin-left: 11px
+    margin-right: 32px;
+    margin-left: 10px;
 }
 .features_main_block img
 {
     margin-bottom: 154px;
     float: left;
-    margin-right: 20px;
+    margin-right: 24px;
 }
 .features_main_block p
 {
     line-height: 2;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 19px;
     font-family: 'Raleway';
+    margin-top: -9px;
+    font-weight: 600;
+    color: #cecece;
 }
 .features_second_block
 {
@@ -339,9 +345,9 @@ width: 258px;
 {
 
     margin-bottom: 100px;
-       background-color: #fcfcfc;
+    /*background-color: #fcfcfc;*/
     width: 100%;
-    margin-top: 100px;
+    
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -349,7 +355,9 @@ width: 258px;
 {
     height:215px ;
     width:600px ;
-    margin-left: 42px;
+    margin-left: 27px;
+    margin-top: 42px;
+    margin-bottom: -43px;
 }
 .content_block img
 {
@@ -364,14 +372,15 @@ width: 258px;
     font-size: 16px;
     text-transform: uppercase;
     color: #686868;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     font-family: 'Raleway';
 }
 .content_block p
 {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.7;
     font-family: 'Raleway';
+    font-weight: 500;
 }
 .take_action
 {
@@ -382,30 +391,34 @@ width: 258px;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
-    color: #686868;
     font-family: 'Raleway';
-    font-weight: 200;
+    font-weight: 500;
+    margin-top: -18px;
+    line-height: 1.4;
+    color: #c2c2c2;
 
 }
 .action_block p span
 {
     font-weight: bold;
     font-family: 'Raleway';
+    color: #686868;
 }
 .button_of_take_action
 {
-  width: 227px;
-    height: 70px;
+    width: 231px;
+    height: 43px;
 background-color: #ec5483;
     margin-top: 60px;
 box-sizing: border-box;  
-    padding-top: 23px;
+    padding-top: 8px;
     font-family: 'Raleway' , sans-serif;
 
 }
 .action_block div
 {
-    margin-left: 227px;
+    margin-left: 210px;
+    margin-top: 76px;
 }
 
 .button_of_take_action a

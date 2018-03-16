@@ -11,9 +11,9 @@ html,body
     min-width: 980px;
     font-family: "Raleway", sans-serif;
     box-sizing: border-box;
-      background-image: url(../images/bb.jpg);
+    /*  background-image: url(../images/bb.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;*/
     min-height: 100%;
 
 }

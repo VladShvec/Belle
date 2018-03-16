@@ -11,7 +11,9 @@ html,body
     min-width: 980px;
     font-family: "Raleway", sans-serif;
     box-sizing: border-box;
-
+      background-image: url(../images/bb.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     min-height: 100%;
 
 }
@@ -20,6 +22,7 @@ header
     width: 100%;
     margin-bottom: 10px;
     height: 100px;
+   
 }
 .in
 {
@@ -31,10 +34,12 @@ header
 {
     margin-top: 37px;
     float: left;
+    vertical-align: baseline;
 }
 nav
 {
     float: right;
+    vertical-align: middle;
 }
 nav ul
 {
@@ -67,6 +72,7 @@ nav a:hover
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+ 
     
 }
 .bilb h1 
@@ -80,6 +86,7 @@ h1 span
 {
     font-weight: 700;
     color: #646262;
+    margin-right: 13px;
 }
 .get_it_now
 {
@@ -115,7 +122,9 @@ h1 span
 .Service
 {
     width: 100%;
-    height: 433px;
+    background-color: #fff;
+    height: 333px;
+    margin-top: 100px;
 }
 .service_blocks
 {
@@ -123,20 +132,24 @@ h1 span
     width:187px ;
     display: inline-block;
     margin-left: 20px;
-    margin-top: 100px;
+    margin-top: 5px;
 }
 .service_blocks img
 {
     margin-left: 72px;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
     
 }
 .service_blocks p
 {
     font-size: 13px;
-    color: #8c8c8c;
+    color: #b7b7b7;
     text-align: center;
-    
+
+    line-height: 2;
+    margin-top: -6px;
+        font-family: 'Raleway';
+    font-weight: bold;
 }
 .Read_more
 {
@@ -144,29 +157,33 @@ h1 span
     
     text-transform: uppercase;
     font-size: 14px;
-}
+    margin-top: 40px;
+    }
 .Read_more a
 {
-    color: #615f5f;
+    color: #4e4e4e;
     font-weight: bold;
+    margin-left: 8px;
+    font-family: 'Tahoma';
 }
 .service_blocks p img
 {
     margin-top: 45px;
-    margin-bottom: 4px;
+    margin-bottom: 9px;
     margin-left: 0
 }
 .Testimonials
 {
     margin-bottom: 100px;
     width: 100%;
+    background-color: #fcfcfc;
 }
 .main_testi
 {
     width: 280px;
     height: 390px;
     display: inline-block;
-    margin-left: 28px;
+    margin-left: 30px;
 }
 .main_testi img
 {
@@ -174,32 +191,43 @@ h1 span
 }
 .main_testi p
 {
-    width: 240px;
-    height: 217px;
+width: 258px;
+    height: 189px;
     border: 1px solid #e6e6e6;
     border-bottom: none;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding-left: 6px;
+    padding-right: 12px;
+    padding-top: 22px;
     line-height: 2;
-    
+    font-family: 'Tahoma';
+    color: #8c8c8c;
 }
+    
 .second_testi img
 
 {
-    margin-left: 110px;
+    margin-left: 105px;
     margin-top: 10px;
+}
+.Alexander_Doe
+{
+    margin-left: 74px;
+}
+.Laurie_Doe
+{
+      margin-left: 100px;
 }
 .second_testi span
 {
     display: block;
     font-weight: bold;
-    margin-left: 91px;
     margin-top: 12px;
     margin-bottom: 7px;
+    font-family: 'Tahoma';
     
 }
+
 .second_testi b
 {
     margin-left: 69px;
@@ -209,7 +237,7 @@ h1 span
 {
     width: 100%;
     margin-bottom: 100px;
-    
+        background-color: #fff;
 }
 .brands
 {
@@ -229,15 +257,19 @@ h1 span
 }
 .Blog
 {
-    margin-left: 54px;
     margin-bottom: 100px;
+    background-color: #fcfcfc;
+    width: 100%;
+ 
+
 }
 .main_blog
 {
     height: 357px;
     width: 280px;
     display: inline-block;
-    margin-right: 42px;
+    margin-right: 2px;
+    margin-left: 40px;
 }
 .main_blog h1
 {
@@ -246,18 +278,23 @@ h1 span
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-family: 'Raleway';
 }
 .Features
 {
-    margin-left: 50px;
-    margin-bottom: 100px;
+  
+
+    margin-left: 58px;
+    margin-bottom: -3px;
+    margin-top: 37px;
 }
 .features_main_block
 {
     height: 191px;
     width: 280px;
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 31px;
+    margin-left: 11px
 }
 .features_main_block img
 {
@@ -270,6 +307,7 @@ h1 span
     line-height: 2;
     font-size: 14px;
     margin-bottom: 10px;
+    font-family: 'Raleway';
 }
 .features_second_block
 {
@@ -288,13 +326,17 @@ h1 span
 }
 .Content
 {
-    margin-left: 67px;
+
     margin-bottom: 100px;
+       background-color: #fcfcfc;
+    width: 100%;
+    margin-top: 100px;
 }
 .content_block
 {
     height:215px ;
     width:600px ;
+    margin-left: 42px;
 }
 .content_block img
 {
@@ -310,11 +352,13 @@ h1 span
     text-transform: uppercase;
     color: #686868;
     margin-bottom: 19px;
+    font-family: 'Raleway';
 }
 .content_block p
 {
     font-size: 14px;
     line-height: 2;
+    font-family: 'Raleway';
 }
 .take_action
 {
@@ -326,11 +370,13 @@ h1 span
     text-transform: uppercase;
     text-align: center;
     color: #686868;
+    font-family: 'Raleway';
 
 }
 .action_block p span
 {
     font-weight: bold;
+    font-family: 'Raleway';
 }
 .button_of_take_action
 {
@@ -340,6 +386,7 @@ background-color: #ec5483;
     margin-top: 60px;
 box-sizing: border-box;  
     padding-top: 23px;
+    font-family: 'Raleway' , sans-serif;
 
 }
 .action_block div
@@ -371,11 +418,11 @@ box-sizing: border-box;
     background-attachment: fixed;
    
 }
-.footer h1 a
+.footer p a
 {
     font-size: 60px;
     color: aliceblue;
     font-weight: bold;
     text-transform: uppercase;
-    margin-left: 550px;
+   margin-left: 246px;
 }

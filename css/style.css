@@ -11,7 +11,7 @@ html,body
     min-width: 980px;
     font-family: "Raleway", sans-serif;
     box-sizing: border-box;
-    /*  background-image: url(../images/bb.jpg);
+/*      background-image: url(../images/bb.jpg);
     background-repeat: no-repeat;
     background-position: center;*/
     min-height: 100%;
@@ -81,6 +81,7 @@ nav a:hover
     color: #7f7e7f;
     margin-left:139px;
     padding-top:  150px;
+    font-weight: 200;
 }
 h1 span
 {
@@ -101,7 +102,7 @@ h1 span
 .get_it_now p
 {
     font-size:18px;
-    font-weight:bold; 
+    font-weight:500; 
     color: #fff;
     margin-left: 73px;
     padding-top: 15px;
@@ -162,7 +163,7 @@ h1 span
 .Read_more a
 {
     color: #4e4e4e;
-    font-weight: bold;
+    font-weight: 600;
     margin-left: 8px;
     font-family: 'Tahoma';
 }
@@ -177,6 +178,8 @@ h1 span
     margin-bottom: 100px;
     width: 100%;
     background-color: #fcfcfc;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .main_testi
 {
@@ -221,7 +224,7 @@ width: 258px;
 .second_testi span
 {
     display: block;
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 12px;
     margin-bottom: 7px;
     font-family: 'Tahoma';
@@ -231,6 +234,7 @@ width: 258px;
 .second_testi b
 {
     margin-left: 69px;
+    font-weight: 200;
 
 }
 .clients
@@ -260,6 +264,8 @@ width: 258px;
     margin-bottom: 100px;
     background-color: #fcfcfc;
     width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
  
 
 }
@@ -271,14 +277,18 @@ width: 258px;
     margin-right: 2px;
     margin-left: 40px;
 }
-.main_blog h1
+.main_blog p
 {
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: 'Raleway';
+}
+.main_blog time
+{
+    font-weight: 200;
 }
 .Features
 {
@@ -317,6 +327,7 @@ width: 258px;
 .features_second_block a
 {
     color: #351e05;
+    font-weight: 600;
 }
 .features_second_block img
 {
@@ -331,6 +342,8 @@ width: 258px;
        background-color: #fcfcfc;
     width: 100%;
     margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .content_block
 {
@@ -345,19 +358,19 @@ width: 258px;
     margin-right: 34px;
 }
 
-.content_block h1
+.content_block .class
 {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
     color: #686868;
-    margin-bottom: 19px;
+    margin-bottom: 15px;
     font-family: 'Raleway';
 }
 .content_block p
 {
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.7;
     font-family: 'Raleway';
 }
 .take_action
@@ -371,6 +384,7 @@ width: 258px;
     text-align: center;
     color: #686868;
     font-family: 'Raleway';
+    font-weight: 200;
 
 }
 .action_block p span
@@ -399,6 +413,7 @@ box-sizing: border-box;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
+    font-weight: 600;
 }
 .button_of_take_action:hover
 {

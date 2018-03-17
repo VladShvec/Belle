@@ -285,13 +285,18 @@ width: 258px;
     font-size: 15px;
     font-weight: 600;
     margin-top: 34px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-family: 'Raleway';
     line-height: 1.5;
 }
 .main_blog time
 {
-    font-weight: 200;
+   font-weight: 200;
+font-size: 12px;
+margin-left: 0px;
+
+color: #d4d4d4;
+vertical-align: middle;
 }
 .Features
 {
@@ -436,21 +441,43 @@ box-sizing: border-box;
 .footer
 {
     width: 100%;
-    background-color: #38404b;
+    /*background-color: #38404b;*/
     height: 336px;
 }
-.footer:hover
+.logo_footer
 {
-    background-image: url(../images/billboard.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-   
+       margin-top: 83px;
+    margin-left: 291px;
 }
-.footer p a
+.nav_footer
 {
-    font-size: 60px;
-    color: aliceblue;
-    font-weight: bold;
-    text-transform: uppercase;
-   margin-left: 246px;
+        margin-top: 12px;
+    margin-right: 150px;
+    font-family: 'Raleway';
+}
+.nav_footer a
+{
+    color: #bcc9dd;
+}
+.nav_footer a:hover
+{
+    border-bottom: none;
+}
+.copy
+{
+    margin-top: 111px;
+    margin-left: 205px;
+}
+.copy p
+{
+        color: #bcc9dd;
+        font-weight: 600;
+        font-size: 12px;
+        text-transform: capitalize;
+}
+.copy p span
+{
+    font-weight:bold;
+    text-transform: none;
+    color: #d7dbe2;
 }

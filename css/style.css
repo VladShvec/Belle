@@ -441,7 +441,7 @@ box-sizing: border-box;
 .footer
 {
     width: 100%;
-    /*background-color: #38404b;*/
+   background-color: #38404b;
     height: 336px;
 }
 .logo_footer

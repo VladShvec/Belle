@@ -46,7 +46,7 @@ nav ul
 {
     margin-top: 47px;
 }
-nav a
+ header nav a
 {
     padding-top: 38px;
     padding-bottom: 29px;
@@ -101,6 +101,7 @@ h1 span
     margin-left: 202px;
     border-radius: 40px 40px 40px 40px;
     box-sizing: border-box;
+    border: 2px solid transparent;
 }
 .get_it_now p
 {
@@ -108,7 +109,7 @@ h1 span
     font-weight:500; 
     color: #fff;
     margin-left: 73px;
-    padding-top: 15px;
+    padding-top: 12px;
 }
 .get_it_now a
 {
@@ -236,7 +237,8 @@ width: 258px;
 
 .second_testi b
 {
-    margin-left: 69px;
+    display: block;
+    text-align: center;
     font-weight: 200;
 
 }
@@ -412,27 +414,29 @@ margin-left: 28px;
 .button_of_take_action
 {
     width: 231px;
-    height: 43px;
+    height: 49px;
 background-color: #ec5483;
     margin-top: 60px;
 box-sizing: border-box;  
     padding-top: 8px;
     font-family: 'Raleway' , sans-serif;
+    border: 1px solid transparent;
 
 }
 .action_block div
 {
-    margin-left: 210px;
-    margin-top: 76px;
+margin-left: 210px;
+    margin-top: 73px;
 }
-
-.button_of_take_action a
+.action_block div p
 {
-    font-weight: bold;
+    color: #fff;
+        font-weight: bold;
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
 }
+
 .button_of_take_action:hover
 {
     border: 1px solid #38404b;
@@ -443,10 +447,11 @@ box-sizing: border-box;
     width: 100%;
    background-color: #38404b;
     height: 336px;
+    padding-top: 83px;
 }
 .logo_footer
 {
-       margin-top: 83px;
+
     margin-left: 291px;
 }
 .nav_footer
@@ -455,9 +460,19 @@ box-sizing: border-box;
     margin-right: 150px;
     font-family: 'Raleway';
 }
+nav_footer 
+{
+
+}
 .nav_footer a
 {
     color: #bcc9dd;
+               margin-top:  38px;
+  margin-bottom: 29px;
+    margin-left: 10px;
+    margin-right: 12px;
+
+
 }
 .nav_footer a:hover
 {
@@ -475,9 +490,13 @@ box-sizing: border-box;
         font-size: 12px;
         text-transform: capitalize;
 }
-.copy p span
+.copy p span a
 {
     font-weight:bold;
     text-transform: none;
     color: #d7dbe2;
+}
+.copy span a:hover
+{
+    color: #ec5483;
 }
